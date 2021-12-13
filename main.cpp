@@ -99,7 +99,8 @@ int color_graph(const my_graph &graph, std::vector<int> &ans) {
 // this program works only if nx * ny < INT_MAX
 int main(int argc, char **args) {
     if (argc <= 1) {
-        std::cout << "Usage: " << args[0] << " --nx=NX --ny=NY" << std::endl;
+        std::cout << "Usage: " << args[0] << " --nx=NX --ny=NY\n";
+        std::cout << "Retrun coloring of rectilinear grid in VTK file format to stdout" << std::endl;
         return 1;
     }
     int nx = -1, ny = -1;
